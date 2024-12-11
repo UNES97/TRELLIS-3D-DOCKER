@@ -11,6 +11,7 @@ COPY app.py requirements.txt ./
 COPY trellis/ ./trellis/
 COPY extensions/ ./extensions/
 COPY assets/ ./assets/
+COPY wheels/ ./wheels/
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
