@@ -19,8 +19,8 @@ This repository contains a Dockerized implementation of Microsoft Trellis with G
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/UNES97/TRELLIS-DOCKER
+cd TRELLIS-DOCKER
 ```
 
 
