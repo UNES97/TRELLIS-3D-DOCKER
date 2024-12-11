@@ -15,7 +15,6 @@ downloads/
 eggs/
 .eggs/
 parts/
-wheels/
 sdist/
 var/
 share/python-wheels/
