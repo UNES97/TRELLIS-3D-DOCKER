@@ -8,7 +8,6 @@ WORKDIR /app
 COPY app.py requirements.txt ./
 
 # Copy additional folders into the container
-COPY wheels/ ./wheels/
 COPY trellis/ ./trellis/
 COPY extensions/ ./extensions/
 COPY assets/ ./assets/
