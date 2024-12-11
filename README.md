@@ -1,7 +1,7 @@
 
-# Trellis Microsoft - Dockerized GPU Application
+# TRELLIS Microsoft - Dockerized Application
 
-This repository contains a Dockerized implementation of Microsoft Trellis with GPU support.
+This repository contains a Dockerized implementation of Microsoft TRELLIS.
 
 ## Prerequisites
 
