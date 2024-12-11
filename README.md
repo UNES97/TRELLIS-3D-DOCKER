@@ -38,5 +38,5 @@ The application will be available at http://localhost:7860
 
 ## Demonstration
 
-[Watch the video](videos/1.webm)
-[Watch the video](videos/2.webm)
+[1.webm](https://github.com/user-attachments/assets/28c540f8-ff87-4983-8117-a9256bc4dba5)
+[2.webm](https://github.com/user-attachments/assets/997785f6-f7bc-4231-8db6-b0789d0fe397)
