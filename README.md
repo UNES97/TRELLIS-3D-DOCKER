@@ -1,5 +1,5 @@
 
-# TRELLIS Microsoft - Dockerized Application
+# TRELLIS Microsoft - Dockerized Application by @UNES97
 
 This repository contains a Dockerized implementation of Microsoft TRELLIS.
 
