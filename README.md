@@ -38,5 +38,9 @@ The application will be available at http://localhost:7860
 
 ## Demonstration
 
-[1.webm](https://github.com/user-attachments/assets/28c540f8-ff87-4983-8117-a9256bc4dba5)
-[2.webm](https://github.com/user-attachments/assets/997785f6-f7bc-4231-8db6-b0789d0fe397)
+
+
+https://github.com/user-attachments/assets/dc7e1f66-b8ed-4df9-8d4e-f9c9167762a9
+
+https://github.com/user-attachments/assets/198cacb5-2587-45d0-a0b3-5d4397b103c4
+
