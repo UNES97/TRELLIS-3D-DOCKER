@@ -31,7 +31,7 @@ docker build -t gradio-gpu-app .
 
 3. Run the container:
 ```bash
-docker run --rm -it --gpus all -p 7860:7860 gradio-gpu-app
+docker run -it --gpus all --cpus="all" --memory="unlimited" -p 7860:7860 --name gradio-app gradio-gpu-app
 ```
 
 The application will be available at http://localhost:7860
