@@ -153,11 +153,13 @@ def deactivate_button() -> gr.Button:
 
 
 with gr.Blocks() as demo:
-    gr.Markdown("""
-    ## Image to 3D Asset with [TRELLIS](https://trellis3d.github.io/)
-    * Upload an image and click "Generate" to create a 3D asset. If the image has alpha channel, it be used as the mask. Otherwise, we use `rembg` to remove the background.
-    * If you find the generated 3D asset satisfactory, click "Extract GLB" to extract the GLB file and download it.
-    """)
+    with gr.Row():
+        with gr.Column(scale=1):
+            gr.Image("https://pub-d36fc13a30b04f49aac6422dc855f7cf.r2.dev/logomaxmind-dark.png", height=100)
+            gr.Markdown("""
+            # MAXMIND 3D Image Generator
+            Transform your 2D images into detailed 3D models with ease
+            """)
     
     with gr.Row():
         with gr.Column():
@@ -191,26 +193,13 @@ with gr.Blocks() as demo:
     trial_id = gr.Textbox(visible=False)
     output_buf = gr.State()
 
-    # Example images at the bottom of the page
-    with gr.Row():
-        examples = gr.Examples(
-            examples=[
-                f'assets/example_image/{image}'
-                for image in os.listdir("assets/example_image")
-            ],
-            inputs=[image_prompt],
-            fn=preprocess_image,
-            outputs=[trial_id, image_prompt],
-            run_on_click=True,
-            examples_per_page=64,
-        )
-
     # Handlers
     image_prompt.upload(
         preprocess_image,
         inputs=[image_prompt],
         outputs=[trial_id, image_prompt],
     )
+    
     image_prompt.clear(
         lambda: '',
         outputs=[trial_id],
