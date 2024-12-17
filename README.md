@@ -31,7 +31,7 @@ docker build -t 3d-gpu-app .
 
 3. Run the container:
 ```bash
-docker run -it --gpus all --cpus=6 --memory=12g -p 7860:7860 --name 3d-app 3d-gpu-app
+docker run -it --gpus all -p 7860:7860 --name 3d-app 3d-gpu-app
 ```
 
 The application will be available at http://localhost:7860
