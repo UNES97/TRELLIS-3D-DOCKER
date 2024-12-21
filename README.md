@@ -1,5 +1,5 @@
 
-# TRELLIS Microsoft - Dockerized Application by @UNES97
+# TRELLIS Microsoft - Dockerized Application by [UNES97](https://github.com/UNES97)
 
 This repository contains a Dockerized implementation of Microsoft TRELLIS.
 
@@ -37,7 +37,6 @@ docker run -it --gpus all -p 7860:7860 --name 3d-app 3d-gpu-app
 The application will be available at http://localhost:7860
 
 ## Demonstration
-
 
 
 https://github.com/user-attachments/assets/dc7e1f66-b8ed-4df9-8d4e-f9c9167762a9
